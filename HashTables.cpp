@@ -48,6 +48,8 @@ public:
                 bucket.erase(it); 
                 break; 
             }
+            else if(it == bucket.end() - 1)
+                cout<<"Key not found"<<endl;
         }
     }
 };
@@ -91,3 +93,4 @@ int main(){
         }
     }
 }
+
