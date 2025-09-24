@@ -46,11 +46,8 @@ public:
             if (it->key == key) {
                 cout<<"Deleted: "<<it->value<<endl;
                 bucket.erase(it); 
-                break; 
+                return; 
             }
-            else if(it == bucket.end() - 1)
-                cout<<"Key not found"<<endl;
-        }
     }
 };
 int main(){
@@ -93,4 +90,5 @@ int main(){
         }
     }
 }
+
 
