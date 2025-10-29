@@ -13,7 +13,7 @@
 
 using namespace std;
 
-// ------------------ History utils (your original part) ------------------
+// ------------------ History utils------------------
 deque<string> history_deque;
 const size_t HISTORY_MAX = 100; // keep only last 100 commands
 
@@ -240,3 +240,4 @@ int main() {
 
     return 0;
 }
+
